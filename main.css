@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(163, 184, 212);
+}
+
+/*GRIDS*/
+.contenedor-proyecto {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "nav"
+    "header"    
+    "main"
+    "aside"    
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;   
+}
+
+/*NAVEGACION*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-principal {
+    color: cornflowerblue;
+    font-size: 80px;
+    text-align: center;
+}
+
+.titulo-principal2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: cornflowerblue;
+    font-size: 60px;
+    text-align: center
+}
+
+.header-contenedor {
+    background-color: antiquewhite;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-center {
+    flex: 25%;
+    width: 100%;
+    height: auto;
+}
+
+.image-prudencio {
+    flex: 25%;
+    width: 100%;
+    height: auto;
+}
+
+.segundo-titulo {
+    color: rgb(104, 18, 18);
+}
+
+#encabezado-tres {
+    color: blue;
+}
+
+p span {
+    color: blue;
+}
+
+section {
+    padding: 5px 10px 20px;
+    border-style: solid;
+    mask-border-width: 3px;
+    border-color: cadetblue;
+}
+
+table {
+    background-color: rgb(76, 142, 218);
+}
+
+.fotos {
+    font-size: 20px;
+    color: rgb(62, 62, 100);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    color: rgb(121, 31, 31);
+    border: 2px solid;    
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#titulo-lista {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto', serif;
+}
+
+.fondo-auf {
+    background-color: skyblue;
+}
+
+.fondo-ls {
+    background-color: greenyellow;
+}
+
+.sector-imagen {
+    background-image: url(pictures/Escudo_del_Club_Nacional_de_Football.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.texto-club {
+    font-size: 1em;
+    font-weight: 150;
+    text-align: left;
+    font-family: 'Roboto', serif;
+}
+
+
+
+/*MQ MOBILE*/
+@media only screen	and (max-width:  768px){
+    nav {
+        color: darkblue;
+        background-color: whitesmoke;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10px 10px 10px 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .fotos {
+        color: blue;
+        background-color: aliceblue;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    .galeria {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        display: flex
+        flex-wrap: wrap;
+    }
+    .multimedia {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+/*MQ TABLET*/
+@media only screen	and (min-width:  769px) and (max-width:  1023px){
+    
+}
+
+/*MQ DESKTOP*/
+@media only screen	and (max-width:  1024){
+    
+}
