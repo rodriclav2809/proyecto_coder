@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    color: cornflowerblue;
+    color: rgb(46, 51, 61);
     font-size: 60px;
     text-align: center
 }
