@@ -25,10 +25,10 @@ nav {
 }
 
 .titulo-principal {
-    color: rgb(51, 58, 71);
+    color: rgb(241, 244, 248);
     font-size: 80px;
     text-align: center;
-}
+    }
 
 .titulo-principal2 {
     display: flex;
@@ -40,8 +40,8 @@ nav {
 }
 
 .header-contenedor {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(178, 157, 163, 1) 28%, rgba(150, 7, 7, 0.8799117058932948) 70%, rgba(0, 212, 255, 1) 90%, rgba(169, 6, 116, 1) 97%);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(69,82,94,1) 28%, rgba(219,13,13,0.8799117058932948) 70%, rgba(6,36,169,1) 97%, rgba(11,46,53,1) 100%);
     justify-content: center;
     align-content: center;
 }
@@ -77,8 +77,10 @@ section {
     border-color: cadetblue;
 }
 
-table {
-    background-color: rgb(76, 142, 218);
+.table-aspect  {
+    border: 2px 2px 2px;
+    margin: auto;
+
 }
 
 .fotos {
@@ -97,7 +99,8 @@ table {
 }
 
 footer {
-    color: rgb(121, 31, 31);
+    color: rgb(52, 31, 238);
+    background-color: white;
     border: 2px solid;
     padding: 20px;
     margin: 20px;
@@ -140,6 +143,11 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     flex-wrap: wrap;
+}
+
+h3 {
+    color: rgba(255, 0, 0, 0.795);
+    text-align: center;
 }
 
 .texto-club {
@@ -188,7 +196,7 @@ p {
         grid-template-rows: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    }    
 
 }
 
