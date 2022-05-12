@@ -1,0 +1,208 @@
+body {
+  background: #515053;
+  background: linear-gradient(351deg, rgba(81, 80, 83, 0.977329) 18%, #dce3e9 42%, rgba(121, 62, 62, 0.940914) 63%, #ad795d 76%, rgba(37, 46, 83, 0.817665) 82%); }
+
+/*GRIDS*/
+.contenedor-proyecto {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "nav" "header" "main" "aside" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  /*NAVEGACION*/
+  /*MQ MOBILE*/
+  /*MQ TABLET*/
+  /*MQ DESKTOP*/ }
+  .contenedor-proyecto nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .contenedor-proyecto .titulo-principal {
+    color: #f1f4f8;
+    font-size: 80px;
+    text-align: center; }
+  .contenedor-proyecto .titulo-principal2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: cornflowerblue;
+    font-size: 60px;
+    text-align: center; }
+  .contenedor-proyecto .header-contenedor {
+    background: #020024;
+    background: radial-gradient(circle, #020024 0%, #45525e 28%, rgba(219, 13, 13, 0.879912) 70%, #0624a9 97%, #0b2e35 100%);
+    justify-content: center;
+    align-content: center; }
+  .contenedor-proyecto .image-center {
+    flex: 25%;
+    width: 100%;
+    height: auto; }
+  .contenedor-proyecto .image-prudencio {
+    flex: 25%;
+    width: 100%;
+    height: auto; }
+  .contenedor-proyecto .segundo-titulo {
+    color: #681212; }
+  .contenedor-proyecto #encabezado-tres {
+    color: blue; }
+  .contenedor-proyecto p span {
+    color: blue; }
+  .contenedor-proyecto section {
+    padding: 5px 10px 20px;
+    border-style: solid;
+    mask-border-width: 3px;
+    border-color: rgba(42, 54, 54, 0.137); }
+  .contenedor-proyecto .fotos {
+    font-size: 20px;
+    color: #3e3e64;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .contenedor-proyecto .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; }
+    .contenedor-proyecto .galeria .lucho1 {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+    .contenedor-proyecto .galeria .lucho1:hover {
+      transform: scale(2); }
+    .contenedor-proyecto .galeria .lucho2 {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+    .contenedor-proyecto .galeria .lucho2:hover {
+      transform: scale(2); }
+    .contenedor-proyecto .galeria .lucho3 {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+    .contenedor-proyecto .galeria .lucho3:hover {
+      transform: scale(2); }
+    .contenedor-proyecto .galeria .lucho4 {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+    .contenedor-proyecto .galeria .lucho4:hover {
+      transform: scale(2); }
+    .contenedor-proyecto .galeria .lucho5 {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+    .contenedor-proyecto .galeria .lucho5:hover {
+      transform: scale(2); }
+  .contenedor-proyecto .lucho1 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  .contenedor-proyecto .lucho1:hover {
+    transform: scale(2); }
+  .contenedor-proyecto .lucho2 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  .contenedor-proyecto .lucho2:hover {
+    transform: scale(2); }
+  .contenedor-proyecto .lucho3 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  .contenedor-proyecto .lucho3:hover {
+    transform: scale(2); }
+  .contenedor-proyecto .lucho4 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  .contenedor-proyecto .lucho4:hover {
+    transform: scale(2); }
+  .contenedor-proyecto .lucho5 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  .contenedor-proyecto .lucho5:hover {
+    transform: scale(2); }
+  .contenedor-proyecto footer {
+    color: #341fee;
+    background-color: white;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .contenedor-proyecto .animation1 {
+    animation-name: fade-in;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 1s; }
+
+@keyframes fade-in {
+  0% {
+    transform: translatex(100px); }
+  50% {
+    transform: translatex(20px); }
+  100% {
+    transform: translatex(0px); } }
+  .contenedor-proyecto #titulo-lista {
+    color: rgba(134, 25, 25, 0.644); }
+  .contenedor-proyecto p {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto', serif; }
+  .contenedor-proyecto .fondo-auf {
+    background: #346bd9;
+    background: linear-gradient(351deg, rgba(52, 107, 217, 0.977329) 15%, #5cacf0 29%, rgba(242, 242, 242, 0.940914) 56%, #c0c45e 78%, rgba(76, 104, 221, 0.817665) 91%); }
+  .contenedor-proyecto .fondo-ls {
+    background: #34d9b9;
+    background: linear-gradient(351deg, rgba(52, 217, 185, 0.977329) 0%, #2a2f33 23%, rgba(143, 143, 143, 0.940914) 43%, #5ec487 69%, rgba(233, 233, 234, 0.817665) 77%); }
+  .contenedor-proyecto .sector-imagen {
+    background-image: url(/pictures/Escudo_del_Club_Nacional_de_Football.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap; }
+  .contenedor-proyecto h3 {
+    color: rgba(80, 7, 7, 0.664);
+    text-align: center; }
+  .contenedor-proyecto .texto-club {
+    font-size: 1em;
+    font-weight: 150;
+    text-align: left;
+    font-family: 'Roboto', serif; }
+  @media only screen and (max-width: 768px) {
+    .contenedor-proyecto nav {
+      color: darkblue;
+      background-color: whitesmoke;
+      font-size: 12px;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 10px 10px 10px 10px 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .contenedor-proyecto .fotos {
+      color: blue;
+      background-color: aliceblue;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      justify-content: center; }
+    .contenedor-proyecto .galeria {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap; }
+    .contenedor-proyecto .multimedia {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; } }
