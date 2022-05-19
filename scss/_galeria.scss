@@ -4,11 +4,10 @@
     justify-content: center;
     gap: 10px;
 
-    .lucho1 
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-timing-function: ease;
-    
+    .lucho1 {transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
 }
 
 .lucho1:hover {
@@ -104,4 +103,5 @@
 
 .lucho5:hover {
     transform: scale(2);
+} 
 }

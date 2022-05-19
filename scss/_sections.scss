@@ -11,15 +11,15 @@
     }
 
     .segundo-titulo {
-        color: rgb(104, 18, 18);
+        color: $color-primary;
     }
 
     #encabezado-tres {
-        color: blue;
+        color: $color-secondary;
     }
 
     p span {
-        color: blue;
+        color: $color-secondary;
     }
 
     section {
@@ -59,7 +59,7 @@
     }
 
     .sector-imagen {
-        background-image: url(/pictures/Escudo_del_Club_Nacional_de_Football.jpg) !important;
+        background-image: url(/pictures/Escudo_del_Club_Nacional_de_Football.jpg)!important;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

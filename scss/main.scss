@@ -1,6 +1,9 @@
 body {
     background: rgb(81, 80, 83);
     background: linear-gradient(351deg, rgba(81, 80, 83, 0.9773286023393732) 18%, rgba(220, 227, 233, 1) 42%, rgba(121, 62, 62, 0.9409140365130427) 63%, rgba(173, 121, 93, 1) 76%, rgba(37, 46, 83, 0.8176647367931548) 82%);
+
+    //variables
+    $color-primary: #b34b4b $color-secondary #3a3a9c
 }
 
 
@@ -19,15 +22,25 @@ body {
 
     @import "nav"
 
+
     @import "header"
+
+
 
     @import "sections"
 
+        
+
     @import "galeria"
+
+        
 
     @import "footer"
 
+        
 
-    @import "mediaquerys"
+    @import "media"
 
-}
+
+
+//
