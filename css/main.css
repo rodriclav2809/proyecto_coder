@@ -1,208 +1,266 @@
 body {
-  background: #515053;
-  background: linear-gradient(351deg, rgba(81, 80, 83, 0.977329) 18%, #dce3e9 42%, rgba(121, 62, 62, 0.940914) 63%, #ad795d 76%, rgba(37, 46, 83, 0.817665) 82%); }
+    background: rgb(81, 80, 83);
+    background: linear-gradient(351deg, rgba(81, 80, 83, 0.9773286023393732) 18%, rgba(220, 227, 233, 1) 42%, rgba(121, 62, 62, 0.9409140365130427) 63%, rgba(173, 121, 93, 1) 76%, rgba(37, 46, 83, 0.8176647367931548) 82%);
+}
 
 /*GRIDS*/
 .contenedor-proyecto {
-  display: grid;
-  gap: 10px;
-  grid-template-areas: "nav" "header" "main" "aside" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  /*NAVEGACION*/
-  /*MQ MOBILE*/
-  /*MQ TABLET*/
-  /*MQ DESKTOP*/ }
-  .contenedor-proyecto nav {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "nav"
+        "header"
+        "main"
+        "aside"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+/*NAVEGACION*/
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; }
-  .contenedor-proyecto .titulo-principal {
-    color: #f1f4f8;
+    justify-content: center;
+}
+
+.titulo-principal {
+    color: rgb(241, 244, 248);
     font-size: 80px;
-    text-align: center; }
-  .contenedor-proyecto .titulo-principal2 {
+    text-align: center;
+}
+
+.titulo-principal2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     color: cornflowerblue;
     font-size: 60px;
-    text-align: center; }
-  .contenedor-proyecto .header-contenedor {
-    background: #020024;
-    background: radial-gradient(circle, #020024 0%, #45525e 28%, rgba(219, 13, 13, 0.879912) 70%, #0624a9 97%, #0b2e35 100%);
+    text-align: center
+}
+
+.header-contenedor {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(69, 82, 94, 1) 28%, rgba(219, 13, 13, 0.8799117058932948) 70%, rgba(6, 36, 169, 1) 97%, rgba(11, 46, 53, 1) 100%);
     justify-content: center;
-    align-content: center; }
-  .contenedor-proyecto .image-center {
+    align-content: center;
+}
+
+.image-center {
     flex: 25%;
     width: 100%;
-    height: auto; }
-  .contenedor-proyecto .image-prudencio {
+    height: auto;
+}
+
+.image-prudencio {
     flex: 25%;
     width: 100%;
-    height: auto; }
-  .contenedor-proyecto .segundo-titulo {
-    color: #681212; }
-  .contenedor-proyecto #encabezado-tres {
-    color: blue; }
-  .contenedor-proyecto p span {
-    color: blue; }
-  .contenedor-proyecto section {
+    height: auto;
+}
+
+.segundo-titulo {
+    color: rgb(104, 18, 18);
+}
+
+#encabezado-tres {
+    color: blue;
+}
+
+p span {
+    color: blue;
+}
+
+section {
     padding: 5px 10px 20px;
     border-style: solid;
     mask-border-width: 3px;
-    border-color: rgba(42, 54, 54, 0.137); }
-  .contenedor-proyecto .fotos {
+    border-color: rgba(42, 54, 54, 0.137);
+}
+
+.fotos {
     font-size: 20px;
-    color: #3e3e64;
+    color: rgb(62, 62, 100);
     display: flex;
     flex-direction: row;
-    justify-content: center; }
-  .contenedor-proyecto .galeria {
+    justify-content: center;
+}
+
+.galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; }
-    .contenedor-proyecto .galeria .lucho1 {
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease; }
-    .contenedor-proyecto .galeria .lucho1:hover {
-      transform: scale(2); }
-    .contenedor-proyecto .galeria .lucho2 {
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease; }
-    .contenedor-proyecto .galeria .lucho2:hover {
-      transform: scale(2); }
-    .contenedor-proyecto .galeria .lucho3 {
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease; }
-    .contenedor-proyecto .galeria .lucho3:hover {
-      transform: scale(2); }
-    .contenedor-proyecto .galeria .lucho4 {
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease; }
-    .contenedor-proyecto .galeria .lucho4:hover {
-      transform: scale(2); }
-    .contenedor-proyecto .galeria .lucho5 {
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease; }
-    .contenedor-proyecto .galeria .lucho5:hover {
-      transform: scale(2); }
-  .contenedor-proyecto .lucho1 {
+    gap: 10px;   
+}
+
+.lucho1 {
     transition-property: all;
     transition-duration: 0.5s;
-    transition-timing-function: ease; }
-  .contenedor-proyecto .lucho1:hover {
-    transform: scale(2); }
-  .contenedor-proyecto .lucho2 {
+    transition-timing-function: ease;
+}
+
+.lucho1:hover {
+    transform: scale(2);
+}
+
+.lucho2 {
     transition-property: all;
     transition-duration: 0.5s;
-    transition-timing-function: ease; }
-  .contenedor-proyecto .lucho2:hover {
-    transform: scale(2); }
-  .contenedor-proyecto .lucho3 {
+    transition-timing-function: ease;
+}
+
+.lucho2:hover {
+    transform: scale(2);
+}
+
+.lucho3 {
     transition-property: all;
     transition-duration: 0.5s;
-    transition-timing-function: ease; }
-  .contenedor-proyecto .lucho3:hover {
-    transform: scale(2); }
-  .contenedor-proyecto .lucho4 {
+    transition-timing-function: ease;
+}
+
+.lucho3:hover {
+    transform: scale(2);
+}
+
+.lucho4 {
     transition-property: all;
     transition-duration: 0.5s;
-    transition-timing-function: ease; }
-  .contenedor-proyecto .lucho4:hover {
-    transform: scale(2); }
-  .contenedor-proyecto .lucho5 {
+    transition-timing-function: ease;
+}
+
+.lucho4:hover {
+    transform: scale(2);
+}
+
+.lucho5 {
     transition-property: all;
     transition-duration: 0.5s;
-    transition-timing-function: ease; }
-  .contenedor-proyecto .lucho5:hover {
-    transform: scale(2); }
-  .contenedor-proyecto footer {
-    color: #341fee;
+    transition-timing-function: ease;
+}
+
+.lucho5:hover {
+    transform: scale(2);
+}
+
+footer {
+    color: rgb(52, 31, 238);
     background-color: white;
     border: 2px solid;
     padding: 20px;
     margin: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
-  .contenedor-proyecto .animation1 {
-    animation-name: fade-in;
+    justify-content: space-evenly;         
+}
+
+.animation1 {
+    animation-name: fade-in; 
     animation-iteration-count: 3;
     animation-timing-function: ease;
     animation-duration: 2s;
-    animation-delay: 1s; }
+    animation-delay: 1s;
+}
 
 @keyframes fade-in {
-  0% {
-    transform: translatex(100px); }
-  50% {
-    transform: translatex(20px); }
-  100% {
-    transform: translatex(0px); } }
-  .contenedor-proyecto #titulo-lista {
-    color: rgba(134, 25, 25, 0.644); }
-  .contenedor-proyecto p {
+    0%{
+        transform: translatex(100px);
+    }
+    50% {
+        transform: translatex(20px);
+    }
+    100% {
+        transform: translatex(0px);
+    }
+}
+
+#titulo-lista {
+    color: rgba(134, 25, 25, 0.644);
+}
+
+p {
     font-size: 1em;
     font-weight: 300;
     text-align: left;
-    font-family: 'Roboto', serif; }
-  .contenedor-proyecto .fondo-auf {
-    background: #346bd9;
-    background: linear-gradient(351deg, rgba(52, 107, 217, 0.977329) 15%, #5cacf0 29%, rgba(242, 242, 242, 0.940914) 56%, #c0c45e 78%, rgba(76, 104, 221, 0.817665) 91%); }
-  .contenedor-proyecto .fondo-ls {
-    background: #34d9b9;
-    background: linear-gradient(351deg, rgba(52, 217, 185, 0.977329) 0%, #2a2f33 23%, rgba(143, 143, 143, 0.940914) 43%, #5ec487 69%, rgba(233, 233, 234, 0.817665) 77%); }
-  .contenedor-proyecto .sector-imagen {
-    background-image: url(/pictures/Escudo_del_Club_Nacional_de_Football.jpg);
+    font-family: 'Roboto', serif;
+}
+
+.fondo-auf {
+    background: rgb(52, 107, 217);
+    background: linear-gradient(351deg, rgba(52, 107, 217, 0.9773286023393732) 15%, rgba(92, 172, 240, 1) 29%, rgba(242, 242, 242, 0.9409140365130427) 56%, rgba(192, 196, 94, 1) 78%, rgba(76, 104, 221, 0.8176647367931548) 91%);
+}
+
+.fondo-ls {
+    background: rgb(52, 217, 185);
+    background: linear-gradient(351deg, rgba(52, 217, 185, 0.9773286023393732) 0%, rgba(42, 47, 51, 1) 23%, rgba(143, 143, 143, 0.9409140365130427) 43%, rgba(94, 196, 135, 1) 69%, rgba(233, 233, 234, 0.8176647367931548) 77%);
+}
+
+.sector-imagen {
+    background-image: url(pictures/Escudo_del_Club_Nacional_de_Football.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    flex-wrap: wrap; }
-  .contenedor-proyecto h3 {
+    flex-wrap: wrap;
+}
+
+h3 {
     color: rgba(80, 7, 7, 0.664);
-    text-align: center; }
-  .contenedor-proyecto .texto-club {
+    text-align: center;
+}
+
+.texto-club {
     font-size: 1em;
     font-weight: 150;
     text-align: left;
-    font-family: 'Roboto', serif; }
-  @media only screen and (max-width: 768px) {
-    .contenedor-proyecto nav {
-      color: darkblue;
-      background-color: whitesmoke;
-      font-size: 12px;
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 10px 10px 10px 10px 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center; }
-    .contenedor-proyecto .fotos {
-      color: blue;
-      background-color: aliceblue;
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      justify-content: center; }
-    .contenedor-proyecto .galeria {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      justify-content: center;
-      display: flex;
-      flex-wrap: wrap; }
-    .contenedor-proyecto .multimedia {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center; } }
+    font-family: 'Roboto', serif;
+}
+
+
+
+/*MQ MOBILE*/
+@media only screen and (max-width: 768px) {
+    nav {
+        color: darkblue;
+        background-color: whitesmoke;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10px 10px 10px 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fotos {
+        color: blue;
+        background-color: aliceblue;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        display: flex flex-wrap: wrap;
+    }
+
+    .multimedia {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
+/*MQ TABLET*/
+@media only screen and (min-width: 769px) and (max-width: 1023px) {}
+
+/*MQ DESKTOP*/
+@media only screen and (max-width: 1024) {}

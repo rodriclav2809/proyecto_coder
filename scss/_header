@@ -1,0 +1,21 @@
+  .titulo-principal {
+        color: rgb(241, 244, 248);
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .titulo-principal2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: cornflowerblue;
+        font-size: 60px;
+        text-align: center
+    }
+
+    .header-contenedor {
+        background: rgb(2, 0, 36);
+        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(69, 82, 94, 1) 28%, rgba(219, 13, 13, 0.8799117058932948) 70%, rgba(6, 36, 169, 1) 97%, rgba(11, 46, 53, 1) 100%);
+        justify-content: center;
+        align-content: center;
+    }

@@ -1,0 +1,32 @@
+ footer {
+        color: rgb(52, 31, 238);
+        background-color: white;
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .animation1 {
+        animation-name: fade-in;
+        animation-iteration-count: 3;
+        animation-timing-function: ease;
+        animation-duration: 2s;
+        animation-delay: 1s;
+    }
+
+    @keyframes fade-in {
+        0% {
+            transform: translatex(100px);
+        }
+
+        50% {
+            transform: translatex(20px);
+        }
+
+        100% {
+            transform: translatex(0px);
+        }
+    }

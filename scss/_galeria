@@ -1,0 +1,107 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    .lucho1 
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+    
+}
+
+.lucho1:hover {
+    transform: scale(2);
+}
+
+.lucho2 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho2:hover {
+    transform: scale(2);
+}
+
+.lucho3 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho3:hover {
+    transform: scale(2);
+}
+
+.lucho4 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho4:hover {
+    transform: scale(2);
+}
+
+.lucho5 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho5:hover {
+    transform: scale(2);
+}
+
+
+.lucho1 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho1:hover {
+    transform: scale(2);
+}
+
+.lucho2 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho2:hover {
+    transform: scale(2);
+}
+
+.lucho3 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho3:hover {
+    transform: scale(2);
+}
+
+.lucho4 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho4:hover {
+    transform: scale(2);
+}
+
+.lucho5 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.lucho5:hover {
+    transform: scale(2);
+}
