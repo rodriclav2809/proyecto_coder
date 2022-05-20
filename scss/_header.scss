@@ -5,3 +5,17 @@
     align-content: center;
 }
 
+.titulo-principal {
+    color: rgb(241, 244, 248);
+    font-size: 80px;
+    text-align: center;
+}
+
+.titulo-principal2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: cornflowerblue;
+    font-size: 60px;
+    text-align: center
+}
