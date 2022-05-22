@@ -1,3 +1,36 @@
 //variables
 $color-primary: #b34b4b; 
 $color-secondary: #3a3a9c;
+
+$details: (
+    equipo: #136db6,
+    pais: #1c1c88,
+    goles: #e662c9,
+);
+
+@each $detail, $color in $details {
+    .details-#{$detail}{
+        color: $color;        
+    }
+
+}   
+
+.tabla {
+    @extend .tabla;
+    border-color: rgb(168, 102, 102);
+    background-color: rgb(103, 114, 134);   
+}
+
+@mixin encabezados ($tamano) {
+    h1 {
+        font: $tamano;
+    }
+    h2 {
+        font-size: $tamano - 0.2;
+    }
+    h3 {
+        font-size: $tamano - 0.5;
+    }
+}
+
+@include encabezados(2em);

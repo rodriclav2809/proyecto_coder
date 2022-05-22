@@ -1,3 +1,25 @@
+.details-equipo {
+  color: #136db6; }
+
+.details-pais {
+  color: #1c1c88; }
+
+.details-goles {
+  color: #e662c9; }
+
+.tabla {
+  border-color: #a86666;
+  background-color: #677286; }
+
+h1 {
+  font: 2em; }
+
+h2 {
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 1.5em; }
+
 body {
   background: #515053;
   background: linear-gradient(351deg, rgba(81, 80, 83, 0.977329) 18%, #dce3e9 42%, rgba(121, 62, 62, 0.940914) 63%, #ad795d 76%, rgba(37, 46, 83, 0.817665) 82%); }
